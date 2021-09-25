@@ -1,0 +1,52 @@
+BOOTSTRAP:
+
+    It is a design library.
+    Front-end library containing pre-built responsive components such as Nav-bar, Header, Footer
+    Lets us create a page without CSS
+    Having hands on experience in 1-2 libraries is required
+
+    Stylesheet Link:
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    JS Link:
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+
+
+    Bootstrap provides pre-built and reusable styles using class names.
+    Any components we need we can add the HTML Tag structures and use class names provided from Bootstrap.
+    Styles from Bootstrap are responsible and designed with Mobile-first approach
+
+
+    BREAKPOINTS (6 Types):
+        X-Small (xs) , Small (sm) , Medium (md), Large (lg), Extra Large (xl) , Extra Extra Large (xxl) 
+
+
+    Bootstrap's grid system uses a series of containers, rows and columns to lay out and align content.
+    It is built with CSS Flexbox and is fully responsive
+
+    GRID:
+        The grid can be made responsive using Breakpoints
+
+        Example of Basic Grid:
+            <div class="row">
+            <div class="col">1</div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+            <div class="col">4</div>
+            </div>
+        
+        In Bootstrap there screen is divided into 12 parts
+        So for col-md-6: In md size, 6/12 = 1/2 
+        So two columns i.e. The elements will occupy 50% of screen
+
+        Similarly, for col-lg-3: In lg size, 3/12 = 1/4
+        So 4 Columns i.e. The elments will occupy 25% of the screen 
+
+        If a specification is provided that will carry forward for all screen sizes
+
+        For different screen sizes different specifications must be provided or else for diff screens it will look bad.
